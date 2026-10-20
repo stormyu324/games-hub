@@ -1,0 +1,15 @@
+// 游戏大厅首页：只接管 games.stormnovalabs.com/ 这一个根路径，
+// 其他路径（/cards-cursor/、/majiang/ 等）仍由各自的 Worker 处理
+{
+  "name": "games-hub",
+  // stormnovalabs.com 所在的 Cloudflare 账户
+  "account_id": "d22bdb7bc1755ad305aabca0ccca32be",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public"
+  },
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "games.stormnovalabs.com/", "zone_name": "stormnovalabs.com" }
+  ]
+}
