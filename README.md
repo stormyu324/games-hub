@@ -10,8 +10,8 @@ https://games.stormnovalabs.com/ 的首页，列出所有小游戏。
 | `games.stormnovalabs.com/` | `games-hub` | 本仓库 |
 | `games.stormnovalabs.com/cards-cursor/` | `games` | cards-cursor |
 | `games.stormnovalabs.com/majiang/` | `majiang` | simple-majiang |
-| `kart.stormnovalabs.com` | `kart-rush` | |
-| `rts.stormnovalabs.com` | `steel-front` | |
+| `games.stormnovalabs.com/kart/` | `kart-rush` | kart-rush |
+| `games.stormnovalabs.com/rts/` | `steel-front` | steel-front |
 
 ## 部署
 
