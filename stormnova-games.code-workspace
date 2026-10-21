@@ -1,0 +1,16 @@
+{
+  // 把所有游戏的仓库 clone 到同一个文件夹下，再用 VS Code 打开这个文件：
+  //   <任意文件夹>/
+  //     games-hub/        ← 本仓库，这个文件就在这里
+  //     cards-cursor/
+  //     simple-majiang/
+  //     kart-rush/
+  //     steel-front/
+  "folders": [
+    { "name": "游戏大厅 (games-hub)", "path": "." },
+    { "name": "斗地主 (cards-cursor)", "path": "../cards-cursor" },
+    { "name": "简单麻将 (simple-majiang)", "path": "../simple-majiang" },
+    { "name": "卡丁狂飙 (kart-rush)", "path": "../kart-rush" },
+    { "name": "钢铁前线 (steel-front)", "path": "../steel-front" }
+  ]
+}

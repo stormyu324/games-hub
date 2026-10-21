@@ -25,3 +25,14 @@ npx wrangler deploy
 1. 新游戏用自己的 Worker，路由设成 `games.stormnovalabs.com/<名字>` 和 `games.stormnovalabs.com/<名字>/*`
    （更具体的路径路由会优先于 `games` 的自定义域名，不影响其他游戏）
 2. 在 `public/index.html` 里加一张卡片，然后重新部署本仓库
+
+## 用 VS Code 一起打开所有游戏
+
+把各个游戏的仓库 clone 到 games-hub 旁边（同一个文件夹下），再打开 `stormnova-games.code-workspace`：
+
+```bash
+for r in games-hub cards-cursor simple-majiang kart-rush steel-front; do
+  git clone https://github.com/stormyu324/$r.git
+done
+code games-hub/stormnova-games.code-workspace
+```
