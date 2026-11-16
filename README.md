@@ -12,6 +12,7 @@ https://games.stormnovalabs.com/ 的首页，列出所有小游戏。
 | `games.stormnovalabs.com/majiang/` | `majiang` | simple-majiang |
 | `games.stormnovalabs.com/kart/` | `kart-rush` | kart-rush |
 | `games.stormnovalabs.com/rts/` | `steel-front` | steel-front |
+| `games.stormnovalabs.com/resonance/` | `resonance` | card-roguelike（`Deploy/web/`） |
 
 ## 部署
 
